@@ -1,0 +1,139 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=36;
+	taxlabels
+	'DC1_C._rotundicauda'
+	'DC2_C._rotundicauda'
+	'DC3_C._rotundicauda'
+	'DG1_T._gigas_Bangladesh'
+	'HQ588752.1_Tachypleus_tridentatus_China'
+	'JF896105.1_C._rotundicauda_Malaysia'
+	'JF896106.1_C._rotundicauda_Malaysia'
+	'JG1_T._gigas_Bangladesh'
+	'JG2_T._gigas_Bangladesh'
+	'JG3_T._gigas_Bangladesh'
+	'JG4_T._gigas_Bangladesh'
+	'JN018216.1_Tachypleus_tridentatus_China'
+	'KJ825848.1_T._gigas_India'
+	'KJ825849.1_T._gigas_India'
+	'KT959446.1_Limulus_polyphemus_Out-group'
+	'KU880543.1_T._gigas_India'
+	'KU880544.1_T._gigas_India'
+	'MF469060.1_C._rotundicauda_Malaysia'
+	'MF469062.1_C._rotundicauda_Malaysia'
+	'MW454801.1_C._rotundicauda_Indonesia'
+	'MW454802.1_C._rotundicauda_Indonesia'
+	'MW454803.1_C._rotundicauda_Indonesia'
+	'MW454811.1_C._rotundicauda_Indonesia'
+	'MW454812.1_C._rotundicauda_Indonesia'
+	'OP107362.1_C._rotundicauda_Bangladesh'
+	'PX720557.1_Tachypleus_tridentatus_China'
+	'PX720558.1_Tachypleus_tridentatus_China'
+	'PX720559.1_Tachypleus_tridentatus_China'
+	'RC1_C._rotundicauda'
+	'RC2_C._rotundicauda'
+	'RC3_C._rotundicauda'
+	'SB1_C._rotundicauda'
+	'SB2_C._rotundicauda'
+	'SB3_C._rotundicauda'
+	'SB4_C._rotundicauda'
+	'SB5_C._rotundicauda'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((('RC1_C._rotundicauda'[&!color=#660000]:1.1E-5,'RC2_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.1,!color=#660000]:1.1E-5,'RC3_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'DC1_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'DC2_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'DC3_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'SB1_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'SB2_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,'SB3_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.0,!color=#660000]:1.1E-5,('SB4_C._rotundicauda'[&!color=#660000]:1.1E-5,'SB5_C._rotundicauda'[&!color=#660000]:1.1E-5)[&label=0.1,!color=#660000]:1.1E-5)[&label=0.7,!color=#660000]:0.003106,'OP107362.1_C._rotundicauda_Bangladesh'[&!color=#660000]:1.1E-5)[&label=0.7,!hilight={12,0.10589365,#ccffff},!color=#660000]:0.009368,((('JF896105.1_C._rotundicauda_Malaysia':0.006474,'JF896106.1_C._rotundicauda_Malaysia':1.1E-5)[&label=0.8]:1.1E-5,'MF469060.1_C._rotundicauda_Malaysia':0.001564)[&label=0.9]:0.003072,('MF469062.1_C._rotundicauda_Malaysia':1.1E-5,('MW454812.1_C._rotundicauda_Indonesia':1.1E-5,('MW454811.1_C._rotundicauda_Indonesia':1.1E-5,('MW454803.1_C._rotundicauda_Indonesia':1.1E-5,('MW454802.1_C._rotundicauda_Indonesia':1.1E-5,'MW454801.1_C._rotundicauda_Indonesia':1.1E-5)[&label=0.1]:1.1E-5)[&label=0.0]:1.1E-5)[&label=0.1]:1.1E-5)[&label=1.0]:0.007712)[&label=0.6]:1.1E-5)[&label=1.0]:0.022006)[&label=1.0]:0.031109,((((('PX720559.1_Tachypleus_tridentatus_China':1.1E-5,'PX720558.1_Tachypleus_tridentatus_China':1.1E-5)[&label=0.4]:1.1E-5,'PX720557.1_Tachypleus_tridentatus_China':1.1E-5)[&label=0.5]:1.1E-5,'HQ588752.1_Tachypleus_tridentatus_China':1.1E-5)[&label=0.6]:1.1E-5,'JN018216.1_Tachypleus_tridentatus_China':1.1E-5)[&label=1.0]:0.044861,('DG1_T._gigas_Bangladesh':0.001734,('KU880544.1_T._gigas_India':1.1E-5,(('KJ825848.1_T._gigas_India':1.1E-5,'KJ825849.1_T._gigas_India':1.1E-5)[&label=0.6]:0.001544,('JG2_T._gigas_Bangladesh':1.1E-5,('JG1_T._gigas_Bangladesh':1.1E-5,('JG3_T._gigas_Bangladesh':1.1E-5,('JG4_T._gigas_Bangladesh':1.1E-5,'KU880543.1_T._gigas_India':1.1E-5)[&label=0.0]:1.1E-5)[&label=0.0]:1.1E-5)[&label=0.0]:1.1E-5)[&label=0.6]:1.1E-5)[&label=0.9]:1.1E-5)[&label=0.9]:0.004406)[&label=1.0,!color=#003399,!hilight={9,0.07051061000000002,#ccffcc}]:0.039092)[&label=0.8]:0.033998,'KT959446.1_Limulus_polyphemus_Out-group':0.149573);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="label";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="Times New Roman";
+	set branchLabels.fontSize=18;
+	set branchLabels.fontStyle=3;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=5;
+	set colour.scheme.label="label:HSBContinuous{{false,false,0.7,1.0},0.0,1.0,0.0,1.0,0.957,1.0,false}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Times New Roman";
+	set nodeLabels.fontSize=18;
+	set nodeLabels.fontStyle=3;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=680;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=18.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=0.02;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Times New Roman";
+	set tipLabels.fontSize=18;
+	set tipLabels.fontStyle=3;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
